@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Gizlilik Politikası</title>
+<style>
+  :root {
+    --text-primary: #1a1a1a;
+    --text-secondary: #555;
+    --bg: #ffffff;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --text-primary: #f0f0f0;
+      --text-secondary: #aaa;
+      --bg: #121212;
+      --border: #333;
+    }
+  }
+  :root[data-theme="dark"] {
+    --text-primary: #f0f0f0;
+    --text-secondary: #aaa;
+    --bg: #121212;
+    --border: #333;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, system-ui, sans-serif;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    line-height: 1.7;
+  }
+  h1 { font-size: 24px; font-weight: 600; }
+  h2 { font-size: 18px; font-weight: 600; margin-top: 32px; }
+  p, li { color: var(--text-secondary); font-size: 15px; }
+  .date { color: var(--text-secondary); font-size: 13px; margin-bottom: 32px; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+</style>
+</head>
+<body>
+  <h1>Gizlilik Politikası</h1>
+  <p class="date">Son güncelleme: 18 Eylül 2026</p>
+
+  <p>Bu uygulama ("UDF-TIFF-PDF Dönüştürücü"), kullanıcılarının gizliliğine önem verir. Bu belge, uygulamanın verilerinizi nasıl işlediğini açıklar.</p>
+
+  <h2>1. Veri Toplama</h2>
+  <p>Bu uygulama, sunucularımıza herhangi bir kişisel veri, dosya veya belge içeriği göndermez. Tüm dönüştürme işlemleri (UDF, TIFF, PDF, DOCX) tamamen <strong>cihazınızın kendi içinde</strong> gerçekleştirilir.</p>
+
+  <h2>2. Dosyalarınız Nerede İşlenir</h2>
+  <p>Seçtiğiniz dosyalar (.udf, .tif/.tiff) ve bunlardan üretilen çıktılar (.pdf, .docx) yalnızca telefonunuzun kendi depolama alanında tutulur. Hiçbir dosya, bu uygulamanın geliştiricisine veya üçüncü bir tarafa iletilmez.</p>
+
+  <h2>3. Yerel Geçmiş Kaydı</h2>
+  <p>Uygulama, daha önce dönüştürdüğünüz dosyaların bir listesini (ad, tarih, dosya konumu) yalnızca kendi cihazınızda saklar. Bu bilgi hiçbir sunucuya gönderilmez ve "Geçmişi Temizle" seçeneğiyle istediğiniz zaman silinebilir.</p>
+
+  <h2>4. Üçüncü Taraf Servisler</h2>
+  <p>Uygulama, dosya paylaşımı için işletim sisteminizin (iOS) kendi paylaşım arayüzünü kullanır. Bu arayüz üzerinden seçtiğiniz uygulamalara (örneğin e-posta, mesajlaşma) dosya göndermeniz sizin kontrolünüzdedir.</p>
+
+  <h2>5. Reklam ve İzleme</h2>
+  <p>Bu uygulama reklam göstermez, kullanıcı davranışını izlemez ve analitik/takip amaçlı üçüncü taraf kütüphaneler kullanmaz.</p>
+
+  <h2>6. Çocukların Gizliliği</h2>
+  <p>Uygulama, belge dönüştürme amaçlı genel kullanım için tasarlanmıştır ve özellikle çocuklardan veri toplamaz.</p>
+
+  <h2>7. Politika Değişiklikleri</h2>
+  <p>Bu gizlilik politikası güncellenebilir. Önemli değişiklikler bu sayfada yayınlanacaktır.</p>
+
+  <h2>8. İletişim</h2>
+  <p>Bu politikayla ilgili sorularınız için uygulama içindeki iletişim bilgilerini kullanabilirsiniz.</p>
+
+  <hr>
+  <p style="font-size:13px">Bu uygulama, resmi bir devlet kurumu (UYAP, Adalet Bakanlığı vb.) ile ilişkili değildir ve onlar tarafından desteklenmemektedir. Bağımsız bir belge dönüştürme aracıdır.</p>
+</body>
+</html>
